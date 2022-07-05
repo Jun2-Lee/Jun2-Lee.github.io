@@ -58,7 +58,7 @@ yat:
 lang: "ko"  # default lang is en
 
 # Translate languges
- langs refer to https://cloud.google.com/translate/docs/languages
+# langs refer to https://cloud.google.com/translate/docs/languages
 translate_langs:
    - lang: ko
      img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
