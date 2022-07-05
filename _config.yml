@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Jun..
+title: 뉴비 개발자
 email: ljh19980823@gmail.com
 author: GitHub User
 copyright: Copyright © 1970-2010
@@ -140,7 +140,7 @@ defaults:
   home:
     heading: "뉴비 개발자의 블로그"
     subheading: "매일매일 하나씩.."
-    banner: "/assets/images/banners/home.jpeg"
+    banner: "/Users/lee/Desktop/Blog/Jun2-Lee.github.io/assets/images/banners/home.jpeg"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
