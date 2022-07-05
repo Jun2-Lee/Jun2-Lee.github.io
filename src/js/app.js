@@ -1,22 +1,22 @@
 /* sweetScroll load */
 document.addEventListener("DOMContentLoaded", function () {
-  const sweetScroll = new SweetScroll({/* some options */});
+  new SweetScroll({/* some options */});
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 160,
+        "value": 30,
         "density": {
           "enable": true,
-          "value_area": 500
+          "value_area": 800
         }
       },
       "color": {
         "value": "#ffffff"
       },
       "shape": {
-        "type": "circle",
+        "type": "polygon",
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -31,12 +31,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       },
       "opacity": {
-        "value": 1,
-        "random": true,
+        "value": 0.5,
+        "random": false,
         "anim": {
-          "enable": true,
+          "enable": false,
           "speed": 1,
-          "opacity_min": 0,
+          "opacity_min": 0.1,
           "sync": false
         }
       },
@@ -45,13 +45,13 @@ document.addEventListener("DOMContentLoaded", function () {
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 4,
-          "size_min": 0.3,
+          "speed": 19.18081918081918,
+          "size_min": 0.1,
           "sync": false
         }
       },
       "line_linked": {
-        "enable": false,
+        "enable": true,
         "distance": 150,
         "color": "#ffffff",
         "opacity": 0.4,
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       "move": {
         "enable": true,
-        "speed": 1,
+        "speed": 4,
         "direction": "none",
         "random": true,
         "straight": false,
@@ -68,20 +68,21 @@ document.addEventListener("DOMContentLoaded", function () {
         "attract": {
           "enable": false,
           "rotateX": 600,
-          "rotateY": 600
+          "rotateY": 1200
         }
-      }
+      },
+      nb: 80
     },
     "interactivity": {
       "detect_on": "canvas",
       "events": {
         "onhover": {
           "enable": false,
-          "mode": "bubble"
+          "mode": "grab"
         },
         "onclick": {
-          "enable": false,
-          "mode": "repulse"
+          "enable": true,
+          "mode": "push"
         },
         "resize": true
       },
@@ -93,14 +94,14 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         },
         "bubble": {
-          "distance": 250,
-          "size": 0,
+          "distance": 400,
+          "size": 40,
           "duration": 2,
-          "opacity": 0,
+          "opacity": 8,
           "speed": 3
         },
         "repulse": {
-          "distance": 400,
+          "distance": 200,
           "duration": 0.4
         },
         "push": {
