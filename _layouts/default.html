@@ -1,25 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {%- include head.html -%}
-
+<link rel="stylesheet" href="../assets/css/devicon.min.css">
+<html lang="en">
+  {% include head.html %}
   <body>
-
-    {%- include views/header.html -%}
-
-    {%- include views/banner.html -%}
-
-    {%- include extensions/hashlocate.html -%}
-
-    {%- include extensions/theme-toggle.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+      {% include header.html %}
+      <section id="about">
+        {% include about.html %}
+      </section>
         {{ content }}
-      </div>
-    </main>
-
-    {%- include views/footer.html -%}
-
+      {% include footer.html %}
   </body>
 </html>
