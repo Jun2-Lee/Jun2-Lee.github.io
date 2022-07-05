@@ -140,7 +140,7 @@ defaults:
   home:
     heading: "뉴비 개발자의 블로그"
     subheading: "매일매일 하나씩.."
-    banner: "Your image url"
+    banner: "/assets/images/banners/home.jpeg"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
