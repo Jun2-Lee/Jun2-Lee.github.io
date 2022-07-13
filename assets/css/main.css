@@ -16,9 +16,9 @@
 {#projects{width:80%}}
 .user-projects{margin:20px}.user-projects img{max-width:100%;height:auto;border-radius:5px}.user-projects h5,body{margin:0}.user-projects li{color:#1a222c;font-size:1.1rem}.user-projects p{margin-right:5px}@media only screen and (min-width:550px)
 {.contents{margin-left:0;width:45%;float:left;}
-.contents-right,.images-right{float:right;width:45%}
+.contents-right,.images-right{float:right;width:45%; height: 100%;}
 .images-right img{float:right}
-.images-left{float:left;width:45%}
+.images-left{float:left;width:45%;height: 100%;}
 .images-left img{float:left}}
 .project-link{display:inline-block;margin:10px 0;padding:5px;color:#1a222c;background-color:transparent;border:1px solid #1a222c;border-radius:10px;text-align:center;outline:0;text-decoration:none;cursor:pointer;transition:color .3s ease-out,background-color .3s ease-out,border-color .3s ease-out}
 .project-link:active,.project-link:hover{background-color:#54516a;border-color:#54516a;color:#fff;transition:color .3s ease-in,background-color .3s ease-in,border-color .3s ease-in}.footer{background:#1a222c;padding:10px 0;margin-top:100px;text-align:center;color:#fff}
